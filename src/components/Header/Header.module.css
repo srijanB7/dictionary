@@ -1,0 +1,15 @@
+.container {
+    margin: 0 auto;
+    padding: 1.2rem;
+    display: flex;
+    justify-content: space-between;
+    max-width: 600px;
+    align-items: center;
+    
+}
+
+.button {
+    background-color: transparent;
+    border: none;   
+    padding: 0.8rem;
+}

@@ -1,0 +1,32 @@
+.container {
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 1.2rem;
+    max-width: 600px;
+    display: flex;
+}
+
+.input {
+    padding: 1rem;
+    border-radius: 12px;
+    flex: 1;
+    font-size: large;
+}
+
+/* .input:focus {
+    border: 1px solid #A345ED;
+} */
+
+.button {
+    background-color: transparent;
+    border: none;
+    padding: 0.8rem;
+    position: relative;
+    right: 50px;
+}
+
+@media (max-width: 768px) {
+    .button {
+        position: static;
+    }
+}

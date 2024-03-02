@@ -1,0 +1,10 @@
+.dark-theme {
+    background-color: var(--black);
+    color: var(--white);
+    min-height: 100vh;
+}
+.light-theme {
+    background-color: var(--white);
+    color: var(--black);
+    min-height: 100vh;
+}
